@@ -63,3 +63,60 @@
         right: 15px;
         cursor: pointer;
 }
+
+
+/* Add this CSS below your existing styles */
+
+.header {
+    /* background: linear-gradient(135deg, #cf9aff, #95c0ff); */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 5%;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.icon {
+    color: #fff;
+    font-size: 24px; /* Adjust size as needed */
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #cf9aff; /* Change color on hover */
+}
+
+.header-text {
+    font-size: 16px;
+}
+
+/* Responsive Design for Header */
+@media (max-width: 768px) {
+    .header-text {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-text {
+        font-size: 12px;
+    }
+
+    .icon {
+        font-size: 18px;
+    }
+}
