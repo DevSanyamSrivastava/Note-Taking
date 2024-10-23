@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #cf9aff, #95c0ff);
     color: #fff;
@@ -46,7 +46,7 @@
 .input-box{
     position: relative;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     min-height: 150px;
     background: #fff;
     color: #333;
