@@ -45,8 +45,8 @@
 
 .input-box{
     position: relative;
-    width: 100%;
-    max-width: 400px;
+    width: 85%;
+    max-width: 300px;
     min-height: 150px;
     background: #fff;
     color: #333;
